@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Batch1_DET_2022
+namespace MyClassLib
 {
     public class Emp
     {
@@ -13,7 +13,7 @@ namespace Batch1_DET_2022
         string name;
         string dept;
         double sal;
-       public DateOnly doj;
+        public DateOnly doj;
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
@@ -40,7 +40,6 @@ namespace Batch1_DET_2022
         {
             return $"Emp Id={id}, Name={name}, Experience={GetYearsofExp()} Years";
         }
-
 
     }
 }
